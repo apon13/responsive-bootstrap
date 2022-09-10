@@ -11,12 +11,39 @@
 </head>
 
 <body style="background-color: #E5E5E5;">
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-primary p-3">
+    <header style="background-color: #562EFF;">
+        <nav class="navbar navbar-expand-sm text-danger">
             <div class="container">
                 <a class="navbar-brand" href="#"><img width="40px" height="51px" src="images/icons/logo.png" alt="Logo"
                         width="30" height="24" class="d-inline-block align-text-top">
                     <span class="ms-2">Idea</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img width="51px" height="51px" src="images/icons/profile.png"
+                                    alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3">
+            <div class="container">
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -33,16 +60,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Works</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img width="51px" height="51px" src="images/icons/profile.png"
-                                    alt=""></a>
-                        </li>
+
                     </ul>
 
                 </div>
             </div>
-        </nav>
+        </nav> -->
     </header>
+
 
     <section class="container p-2 bg-white">
         <div>
@@ -148,19 +173,23 @@
 
                 <div class="col-lg-4 shadow-sm col-md-6 col-12">
                     <img width="224px" height="104px" src="images/courses/course-1.png" alt="">
-                    <p class="mb-0 fw-bold">React - The Complete <br> Guide 2020</p>
-                    <a class="mb-0" href="">Reed Krakoff.</a>
-                    <p class="mb-0"> <i class="fa-solid fa-star" style="color: goldenrod;"></i><i
-                            class="fa-solid fa-star" style="color: goldenrod;"></i><i class="fa-solid fa-star "
-                            style="color: goldenrod;"></i><i class="fa-solid fa-star" style="color: goldenrod;"></i><i
-                            class="fa-regular fa-star"></i></p>
-                    <p class="mb-0">4.0</p>
-
-                    <div>
-                        <p><i class="fa-regular fa-clock"></i>01:20 hr</p>
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <p class="mb-0 fw-bold">React - The Complete <br> Guide 2020</p>
+                            <a class="mb-0" href="">Reed Krakoff.</a>
+                            <p class="mb-0"> <i class="fa-solid fa-star" style="color: goldenrod;"></i><i
+                                    class="fa-solid fa-star" style="color: goldenrod;"></i><i class="fa-solid fa-star "
+                                    style="color: goldenrod;"></i><i class="fa-solid fa-star"
+                                    style="color: goldenrod;"></i><i class="fa-regular fa-star"></i></p>
+                            <p class="mb-0">4.0</p>
+                        </div>
+                        <div class="mt-5" style="color: #FF4A60;">
+                            <p class="rounded-pill" style="background-color: #FFE4E8;"><i
+                                    class="fa-regular fa-clock"></i>01:20 hr</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 shadow-sm col-md-6 col-12">
+                <div class="col-lg-4 shadow-sm col-md-6 col-12  position-relative">
                     <img width="224px" height="104px" src="images/courses/course-2.png" alt="">
                     <p class="mb-0 fw-bold">React - The Complete <br> Guide 2020</p>
                     <a class="mb-0" href="">Reed Krakoff.</a>
@@ -170,30 +199,35 @@
                             class="fa-regular fa-star"></i></p>
                     <p class="mb-0">4.0</p>
 
-                    <div>
-                        <p><i class="fa-regular fa-clock"></i>01:20 hr</p>
+                    <div class="position-absolute bottom-0 mx-5 mb-5 end-0" style="color: #FF4A60;">
+                        <p class="rounded-pill" style="background-color: #FFE4E8;"><i
+                                class="fa-regular fa-clock"></i>01:20 hr</p>
                     </div>
                 </div>
                 <div class="col-lg-4 shadow-sm col-md-6 col-12">
-                    <img width="224px" height="104px" src="images/courses/course-3.png" alt="">
-                    <p class="mb-0 fw-bold">React - The Complete <br> Guide 2020</p>
-                    <a class="mb-0" href="">Reed Krakoff.</a>
-                    <p class="mb-0"> <i class="fa-solid fa-star" style="color: goldenrod;"></i><i
-                            class="fa-solid fa-star" style="color: goldenrod;"></i><i class="fa-solid fa-star "
-                            style="color: goldenrod;"></i><i class="fa-solid fa-star" style="color: goldenrod;"></i><i
-                            class="fa-regular fa-star"></i></p>
-                    <p class="mb-0">4.0</p>
-
-                    <div>
-                        <p><i class="fa-regular fa-clock"></i>01:20 hr</p>
+                    <img width="224px" height="104px" src="images/courses/course-1.png" alt="">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <p class="mb-0 fw-bold">React - The Complete <br> Guide 2020</p>
+                            <a class="mb-0" href="">Reed Krakoff.</a>
+                            <p class="mb-0"> <i class="fa-solid fa-star" style="color: goldenrod;"></i><i
+                                    class="fa-solid fa-star" style="color: goldenrod;"></i><i class="fa-solid fa-star "
+                                    style="color: goldenrod;"></i><i class="fa-solid fa-star"
+                                    style="color: goldenrod;"></i><i class="fa-regular fa-star"></i></p>
+                            <p class="mb-0">4.0</p>
+                        </div>
+                        <div class="mt-5" style="color: #FF4A60;">
+                            <p class="rounded-pill" style="background-color: #FFE4E8;"><i
+                                    class="fa-regular fa-clock"></i>01:20 hr</p>
+                        </div>
                     </div>
+
+
+
+
                 </div>
 
-
-
             </div>
-
-        </div>
 
     </section>
 
